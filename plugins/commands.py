@@ -22,6 +22,7 @@ import base64
 from urllib.parse import quote_plus
 from TechVJ.utils.file_properties import get_name, get_hash, get_media_file_size
 logger = logging.getLogger(__name__)
+from pyrogram.types import Message
 
 BATCH_FILES = {}
 
