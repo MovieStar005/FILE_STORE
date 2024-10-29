@@ -22,6 +22,7 @@ API_ID = int(environ.get("API_ID", "29414758"))
 API_HASH = environ.get("API_HASH", "8cd9e6113ed53dd8767cb760d4535bd1")
 BOT_TOKEN = environ.get("BOT_TOKEN", "6969502691:AAH2s06kLocs4axeTXS2vclkK6z6O1ZKTWI")
 
+AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Movie_Star_File_Search_Bot") # without @
