@@ -57,7 +57,7 @@ async def start(client, message):
             InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@Tech_VJ')
             ],[
             InlineKeyboardButton('[ᴍᴏᴠɪᴇ ꜱᴛᴀʀ "ʙᴀᴄᴋᴜᴘ"]', url='https://t.me/+KD41bHEpyNBmNTM1'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vj_botz')
+            InlineKeyboardButton('🤖 NEW VIRAL VIDEO', url='https://t.me/+5rYsZRsSuVk3YzNl')
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
@@ -411,7 +411,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@Tech_VJ')
             ],[
             InlineKeyboardButton('[ᴍᴏᴠɪᴇ ꜱᴛᴀʀ "ʙᴀᴄᴋᴜᴘ"]', url='https://t.me/+KD41bHEpyNBmNTM1'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vj_botz')
+            InlineKeyboardButton('🤖 NEW VIRAL VIDEO', url='https://t.me/+5rYsZRsSuVk3YzNl')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
             ],[
