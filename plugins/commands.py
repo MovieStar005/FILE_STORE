@@ -23,8 +23,10 @@ from urllib.parse import quote_plus
 from TechVJ.utils.file_properties import get_name, get_hash, get_media_file_size
 logger = logging.getLogger(__name__)
 from pyrogram.types import CallbackQuery
+from pyrogram.types import Message
 
 BATCH_FILES = {}
+
 async def is_subscribed(bot, query, channel):
     btn = []
     for id in channel:
